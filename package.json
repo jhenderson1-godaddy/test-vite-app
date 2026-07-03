@@ -1,0 +1,21 @@
+{
+  "name": "paas-vite-react-hosting",
+  "version": "1.0.0",
+  "description": "Minimal Vite React app for Node.js Hosting (Issue B archive test)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
